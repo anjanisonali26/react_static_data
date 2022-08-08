@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import Header from './Header';
-import Sliders from './Sliders';
+import Header from './component/dashboard/Header';
+import Sliders from './component/dashboard/Sliders';
  
 class App extends Component {
   render() {

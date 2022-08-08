@@ -5,6 +5,7 @@ import Form from 'react-bootstrap/Form';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
+import { Link } from "react-router-dom";
 
 class Header extends Component {
     render() {
@@ -24,8 +25,8 @@ class Header extends Component {
                                 <Nav.Link href="#action2">Shop</Nav.Link>
                                 <NavDropdown title="Men" id="navbarScrollingDropdown">
                                     <NavDropdown.Item href="#action3">Bags</NavDropdown.Item>
-                                    <NavDropdown.Item href="#action4">
-                                        Shoes
+                                    <NavDropdown.Item>
+                                        <Link to="shoes">Shoes</Link>
                                     </NavDropdown.Item>
                                     <NavDropdown.Item href="#action5">
                                         Slippers

@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import Carousel from 'react-bootstrap/Carousel';
-import image1 from './img/image1.jpg';
-import image2 from './img/image2.jpg';
-import image3 from './img/image3.jpg';
+import image1 from '../../img/image1.jpg';
+import image2 from '../../img/image2.jpg';
+import image3 from '../../img/image3.jpg';
 
 class Sliders extends Component {
     render() {
